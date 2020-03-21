@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+@font-face{
+    src: url(../fonts/my.OTF);
+    font-family: my;
+}
+.main{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+.title h1{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 24px;
+    color: #353535;
+    position: relative;
+    
+}
+.title:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 47px;
+    height: 2px;
+    content: "";
+    background:#0872b9;
+
+}
+.title:before{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 3px;
+    height: 2px;
+    content: "";
+    background:#0872b9;
+
+}
+.title h1:after{
+    position: absolute;
+    bottom: 0;
+    left: 56px;
+    width: 2px;
+    height: 2px;
+    content: "";
+    background:#0872b9;
+}
+.title h1:before{
+    position: absolute;
+    bottom: 0;
+    left: 62px;
+    width: 1px;
+    height: 2px;
+    content: "";
+    background: #0872b9;
+}
+
+/* ========================
+    header top part start
+=========================== */
+#headertop-part{
+    width: 100%;
+    background: #0872b9;
+    padding: 10px 0;
+}
+#headertop-part .left{
+    width: 50%;
+    float: left;
+}
+#headertop-part .right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+#headertop-part .left p{
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+#headertop-part .right i{
+    color: #fff;
+    margin-left: 25px;
+    transition: .4s;
+    
+}
+#headertop-part .right i:hover{
+    color: #353535;
+}
+
+/* ========================
+    header top part end
+=========================== */
+
+/* =========================
+    menu part start 
+============================ */
+#menu-part{
+    margin-top: 20px;
+}
+#menu-part .logo{
+    width: 20%;
+    float: left;
+
+}
+#menu-part .menuitem{
+    width: 80%;
+    float: left;
+    line-height: 3;
+
+}
+#menu-part .menuitem ul{
+    text-align: right;
+}
+#menu-part .menuitem ul li{
+    display: inline-block;
+    margin-left: 15px;
+    font-family: my;
+    
+}
+#menu-part .menuitem ul li a{
+    color: #000;
+    transition: .4s;
+}
+#menu-part .menuitem ul li a:hover{
+    color: #0872b9;
+}
+
+/* =========================
+    menu part end 
+============================ */
+
+/* ============================
+   banner part start
+================================ */
+
+#banner-part{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    padding: 88px 0;
+}
+#banner-part .overlay .banner-text{
+    color: #fff;
+    text-align: right;
+}
+#banner-part .overlay .banner-text h2{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+#banner-part .overlay .banner-text h1{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: -6px;
+    margin-bottom: 30px;
+}
+#banner-part .overlay .banner-text p{
+    font-family: 'Open Sans', sans-serif  ;
+    font-size: 13px;
+    font-weight: 400;
+    width: 450px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    line-height: 23px;
+}    
+ #banner-part .overlay .banner-text a{
+     display: inline-block;
+     font-family: 'Oswald', sans-serif ;
+     font-weight: 500;
+     font-size: 14px;
+     border: 1px solid #fff ;
+     color: #fff;
+     text-transform: uppercase;
+     padding: 10px 15px;
+     margin-left: 20px;
+ }
+ #banner-part .overlay .banner-text a:hover{
+     background:#0872b9;
+     border: 1px solid #0872b9;
+ }
+/* ============================
+   banner part end
+================================ */
+
+/* =============================
+   about part start
+================================ */
+#about-part{
+    margin-top: 60px;
+    
+}
+#about-part .container .img{
+    width: 40%;
+    float: left;
+
+}
+#about-part .container .text{
+    width: 60%;
+    float: left;
+    margin-top: 45px;
+
+}
+#about-part .container .text p{
+    font-family: 'Open Sans', sans-serif  ;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom:40px ;
+    line-height: 23px;
+}
+
+/* =============================
+   about part end
+================================ */
+
+
+/* ==============================
+    our services part start 
+================================= */
+#ourservice-part{
+    margin-top: 60px;
+    
+}
+#ourservice-part .service-item{
+    width: 30%;
+    background: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 5px 0px transparent;
+-moz-box-shadow: 0px 0px 5px 0px transparent;
+box-shadow: 0px 0px 5px 0px transparent;
+transition: .4s;
+}
+#ourservice-part .scontainer{
+    display: flex;
+    justify-content: space-between;
+}
+#ourservice-part .scontainer .service-item {
+    margin-top: 50px;
+}
+#ourservice-part .scontainer .service-item h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif ;
+    font-size: 16px;
+    color: #353535;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+#ourservice-part .scontainer .service-item p{
+    font-family: 'Open Sans', sans-serif  ;
+    font-size: 13px;
+    color: #555555;
+    width: 260px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+#ourservice-part .scontainer .service-item .round{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    background:#fff;
+    padding: 4px;
+    box-sizing: border-box;
+}
+#ourservice-part .scontainer .service-item .round .round1{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    transition: .4s;
+
+}
+#ourservice-part .scontainer .service-item .round .round2{
+    width: 60px;
+    height: 60px;
+    background:#f1f1f1;
+    border-radius: 50%;
+    position: relative;
+    transition: .4s;
+}
+#ourservice-part .scontainer .service-item .round .round2 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+#ourservice-part .scontainer .service-item:hover .round1{
+    border: 1px solid #5bc5f4;
+}
+#ourservice-part .scontainer .service-item:hover .round2{
+    background:  #5bc5f4;
+}
+#ourservice-part .scontainer .service-item:hover{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+}
+/* ==============================
+    our services part end
+================================= */
+
+/* ===============================
+    our portfolio part start
+================================== */
+#portfolio-part{
+    margin-top: 60px;
+}
+
+#portfolio-part ul li{
+    width: 23.5%;
+}
+#portfolio-part ul{
+    display: flex;
+    justify-content: space-between;
+}
+#portfolio-part ul li .img{
+    margin-top: 17px;
+    position: relative;
+    
+}
+#portfolio-part ul li img{
+    width: 100%;
+    display: block;
+    
+}
+#portfolio-part ul li .img .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: .4s;
+    
+}
+#portfolio-part ul li .img .overlay i{
+    width: 40px;
+    height: 40px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+}
+#portfolio-part ul li .img:hover .overlay{
+    opacity: 1;
+}
+/* ===============================
+    our portfolio part end
+================================== */
+
+/* ===============================
+    our team part start
+================================== */
+#ourteam-part{
+   margin-top: 60px;
+}
+#ourteam-part .members{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#ourteam-part .member{
+    width: 23.5%;
+}
+#ourteam-part .member .img img{
+    width: 100%;
+    display: block;
+}
+#ourteam-part .member .img{
+    position: relative;
+    overflow: hidden;
+}
+#ourteam-part .member .img .overlay{
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    position: absolute;
+    top: 0;
+    right: -78px;
+    opacity: 0;
+    transition: .4s;
+    
+}
+#ourteam-part .member .img .overlay .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#ourteam-part .member .img .overlay i{
+    width: 40px;
+    height: 40%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 15px;
+    transition: .4s;
+}
+#ourteam-part .member .img .overlay i:hover{
+    background: #5bc5f4;
+    border-color: #5bc5f4;
+}
+#ourteam-part .member:hover .overlay{
+    opacity: 1;
+    right: 0;
+}
+#ourteam-part .member .text{
+    text-align: center;
+}
+#ourteam-part .member .text h3{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 16px;
+    color: #353535;
+    text-transform: uppercase;
+    margin: 10px 0;
+    transition: .4s;
+}
+#ourteam-part .member .text p{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 14px;
+    color: #555555;
+    font-weight: 400;
+}
+#ourteam-part .member:hover h3{
+    color: #6ac9f5;
+}
+/* ===============================
+    our team part end
+================================== */
+
+/* ================================
+    testimonial part start
+=================================== */
+#testimonial-part{
+    margin-top: 60px;
+}
+#testimonial-part .cmnt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#testimonial-part .feedback{
+    width: 48%;
+    text-align: center;
+    
+
+}
+#testimonial-part .feedback .text{
+    background: #f1f1f1;
+    padding: 20px 0;
+    margin-top: 35px;
+    position: relative;
+    
+}
+#testimonial-part .feedback .text h3{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 16px;
+    color: #353535;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#testimonial-part .feedback .text i{
+    font-size: 13px;
+    color: #5bc5f4;
+}
+#testimonial-part .feedback .text h4{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 13px;
+    color: #555555;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#testimonial-part .feedback .text p{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 13px;
+    color: #555555;
+    font-weight: 400;
+    width: 425px;
+    margin:0 auto;
+}
+#testimonial-part .feedback .text .shape{
+    width: 35px;
+    height: 35px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0;
+    left:50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+
+}
+/* ================================
+    testimonial part end
+=================================== */
+
+/* ================================ 
+    footer part start
+====================================*/
+#footer-part{
+    margin-top: 60px;
+    background: #353535;
+    color: #fff;
+    padding: 25px;
+}
+#footer-part .footer{
+    display: flex;
+    justify-content: space-between;
+}
+#footer-part .logo{
+    width: 19%;
+}
+#footer-part .logo p{
+    font-family: 'Open Sans', sans-serif  ;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+#footer-part .contact{
+    width: 20%;
+    
+}
+#footer-part h2{
+    font-family: 'Oswald', sans-serif ;
+    font-size: 16px;
+    font-weight:bold;
+    margin-bottom: 50px;
+}
+#footer-part .contact ul li{
+    font-family: 'Open Sans', sans-serif  ;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 45px;
+}
+#footer-part .contact ul li span{
+    width: 121px;
+    display: inline-block;
+}
+#footer-part .contact ul{
+    margin-bottom: 20px;
+}
+#footer-part .contact ul li i{
+    width: 35px;
+    height: 35px;
+    background: #5bc5f4;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+#footer-part .link{
+    width: 12%;
+    
+}
+#footer-part .link .links{
+    display: flex;
+    justify-content: space-between;
+}
+#footer-part .link ul li{
+    margin-bottom: 15px;
+}
+#footer-part .link ul li a{
+    font-family: 'Open Sans', sans-serif  ;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    transition: .4s;
+}
+#footer-part .link ul li a:hover{
+    color: #5bc5f4;
+}
+#footer-part .img{
+    width:25.5%;
+    
+}
+#footer-part .img .pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#footer-part .img .pic img{
+    margin-bottom: 10px;
+}
+/* ================================ 
+    footer part end
+====================================*/
+/* ==================================
+    footer bottom part start
+===================================== */
+#footerbottom-part{
+    background: #555555;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+#footerbottom-part p{
+    font-family: 'Open Sans', sans-serif  ;
+    font-size: 13px;
+    font-weight: 400;
+}
+#footerbottom-part p span{
+    color: #5bc5f4;
+    font-family: 'Oswald', sans-serif ;
+    text-transform: uppercase;
+}
+/* ==================================
+    footer bottom part end
+===================================== */
